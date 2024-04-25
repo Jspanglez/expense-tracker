@@ -1,7 +1,48 @@
+:root {
+  --yellow: rgb(255, 213, 0);
+  --dark-grey: rgb(30, 30, 30);
+  --grey: rgb(55, 55, 55);
+  background-color: var(--dark-grey);
+}
+
+.main {
+  background-color: var(--dark-grey);
+}
+
 .sidebar-container {
-  margin: 20px;
+  color: white;
+  background-color: var(--grey);
+  margin: 30px;
+  position: relative;
+  width: fit-content;
+  height: 600px;
+  padding-left: 20px;
+  padding-right: 100px;
+  padding-top: 10px;
+  border-radius: 10px;
+}
+
+.sidebar-header {
+  display: flex;
+  align-items: center;
 }
 
 .sidebar-heading {
-  
+  font-size: 36px;
+}
+
+.sidebar-list {
+  font-size: 24px;
+}
+
+.btnAdd {
+  color: white;
+  margin: 10px 20px 20px;
+  padding: 5px 13px 5px 13px;
+  position: absolute;
+  font-size: x-large;
+  left: 250px;
+  border-radius: 30px;
+  background-color: var(--yellow);
+  border: none;
 }
