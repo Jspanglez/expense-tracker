@@ -3,7 +3,7 @@ import Sidebar from "./Sidebar";
 
 function App() {
   return (
-    <div>
+    <div className="main">
       <Sidebar />
       <AddBtn />
     </div>
