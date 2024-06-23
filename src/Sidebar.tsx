@@ -1,6 +1,11 @@
 import React from "react";
 import "./App.css";
 import AddBtn from "./AddBtn";
+interface Props {
+  elements: { name: string; details: string }[];
+  addElement: () => void;
+  myFunction: () => void;
+}
 
 const Sidebar = () => {
   return (
